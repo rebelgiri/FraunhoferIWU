@@ -1,0 +1,45 @@
+[01:19, 9/25/2020] Yousuf Imam New: 
+
+1.       Takes an std::string object as constructor argument pointing to the filesystem location of the binaray data file
+
+2.       Internally computes the discrete Fourier transformation of the samples
+
+3.       Has a public member method returning an std container containing the resulting complex frequency bins of the Fourier transform
+
+
+[01:19, 9/25/2020] Yousuf Imam New: 
+
+class dft
+{
+public:
+
+    dft(std::string *file)
+    {
+        // Only for taking the input
+    }
+    void compute()
+    {
+        // Here dft will be done and stored
+    }
+
+
+};
+[01:55, 9/25/2020] Yousuf Imam New: class dft
+{
+public:
+    
+    dft(const std::string &wordFileName)
+    {
+        // Only for taking the input
+    }
+    void compute()
+    {
+        // Here dft will be done and stored
+    }
+
+
+};
+[01:56, 9/25/2020] Yousuf Imam New: dft(const std::string &wordFileName)
+This is a string object passing  as constructor argument pointing to the file system location ??
+[01:57, 9/25/2020] Yousuf Imam New: is this declaration correct ??
+[01:57, 9/25/2020] Yousuf Imam New: and if Yes then-  wordFileName - me file ka location ya name kaha or kaise denge ... I mean the path
